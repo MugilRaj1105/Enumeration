@@ -56,6 +56,12 @@ Open terminal and try execute some kali linux commands
 ```
 
 # Output:
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9bc39d74-9bcf-42fb-b319-6c85e2c55ad1" />
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/d4bf0103-752a-4f7d-88c7-af931f67e19b" />
+<img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/1f4bc31c-5f02-4231-9fb0-917bac534a14" />
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/c9fe9579-e74f-4990-8868-ccd2e248daa5" />
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/3b6adae4-4bba-493e-81f3-af39be5e03d6" />
+<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/56d3c99a-536c-40ac-a419-792cb8111479" />
 
 
 # DNS Enumeration
@@ -88,32 +94,7 @@ Open terminal and try execute some kali linux commands
 ## OUTPUT:
 
 ## Architecture Diagram 
-```
-+-------------------+        +------------------+       +------------------+
-|                   |        |                  |       |                  |
-|   Attacker (You)  +------->|   Target Server   +<----->+    DNS Server    |
-| Kali Linux / Parrot|       | (Mail / DNS Host) |       |  (Authoritative) |
-+---------+---------+        +---------+--------+       +---------+--------+
-          |                            ^                          ^
-          |                            |                          |
-          |                            |                          |
-          |           +-----------------------------+            |
-          |           |      Information Tools      |            |
-          |           |-----------------------------|            |
-          |           | smtp-user-enum              |            |
-          |           | nmap --script smtp-enum-*   |            |
-          |           | dnsenum                     |<-----------+
-          |           +-----------------------------+
-          |
-          v
-+-----------------------------+
-|   Output/Report             |
-|  - Usernames Found          |
-|  - MX Records / Zones       |
-|  - Subdomains / IPs         |
-+-----------------------------+
 
-```
 
 ## dnsenum
 **Purpose:** A multithreaded Perl script to enumerate information from DNS servers.
@@ -122,9 +103,12 @@ Open terminal and try execute some kali linux commands
 
 ```
 dnsenum example.com
-```
 
+```
 ## Output:
+<img width="1920" height="935" alt="424816973-8d1c0edf-5c9e-412c-83dc-7fb9e261b2a6" src="https://github.com/user-attachments/assets/9d6ffedb-87ba-496a-90cf-6fb69313b8cc" />
+<img width="1920" height="935" alt="424817020-43d22372-83eb-4c60-b998-c443aff97428" src="https://github.com/user-attachments/assets/c5d55f99-defa-45d5-bdee-890e40d20f4d" />
+![424817095-be341bf6-d687-412b-b9d0-944119f91853](https://github.com/user-attachments/assets/336f5367-48bc-4fce-b622-5c54ff24bb49)
 
 
 
